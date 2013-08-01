@@ -4,6 +4,8 @@
 	<remote name="openembedded"
 		fetch="github.com/openembedded" />
 
+	<default remote="openembedded" revision="master"  />
+
 	<project name="bitbake" remote="openembedded" path="bitbake" />
 	<project name="oe-core" remote="openembedded" path="oe-core" />
 	<project name="meta-oe" remote="openembedded" path="meta-oe" />
