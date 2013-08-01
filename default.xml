@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+	<remote name="openembedded"
+		fetch="github.com/openembedded" />
+
+	<project name="bitbake" remote="openembedded" path="bitbake" />
+	<project name="oe-core" remote="openembedded" path="oe-core" />
+	<project name="meta-oe" remote="openembedded" path="meta-oe" />
+
+</manifest>
