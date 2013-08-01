@@ -2,7 +2,7 @@
 
 <manifest>
 	<remote name="openembedded"
-		fetch="github.com/openembedded" />
+		fetch="https://github.com/openembedded" />
 
 	<default remote="openembedded" revision="master"  />
 
