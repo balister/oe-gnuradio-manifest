@@ -2,12 +2,12 @@
 
 <manifest>
 	<remote name="openembedded"
-		fetch="https://github.com/openembedded" />
+		fetch="git://github.com/openembedded" />
 
 	<default remote="openembedded" revision="master"  />
 
-	<project name="bitbake" remote="openembedded" path="bitbake" />
-	<project name="oe-core" remote="openembedded" path="oe-core" />
-	<project name="meta-oe" remote="openembedded" path="meta-oe" />
+	<project name="bitbake"  path="bitbake" />
+	<project name="oe-core"  path="oe-core" />
+	<project name="meta-oe"  path="meta-oe" />
 
 </manifest>
