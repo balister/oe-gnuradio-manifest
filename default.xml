@@ -4,10 +4,20 @@
 	<remote name="openembedded"
 		fetch="git://github.com/openembedded" />
 
+	<remote name="Xilinx"
+		fetch="git://github.com/Xilinx" />
+
+	<remote name="balister"
+		fetch="git://github.com/balister" />
+
 	<default remote="openembedded" revision="master"  />
 
 	<project name="bitbake"  path="bitbake" />
 	<project name="oe-core"  path="oe-core" />
 	<project name="meta-oe"  path="meta-oe" />
+
+	<project name="meta-xilinx" remote="Xilinx" path="meta-xilink" />
+
+	<project name="meta-ettus" remote=balister path="meta-ettus: />
 
 </manifest>
