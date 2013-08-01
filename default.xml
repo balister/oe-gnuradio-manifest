@@ -18,6 +18,6 @@
 
 	<project name="meta-xilinx" remote="Xilinx" path="meta-xilink" />
 
-	<project name="meta-ettus" remote=balister path="meta-ettus: />
+	<project name="meta-ettus" remote="balister" path="meta-ettus" />
 
 </manifest>
