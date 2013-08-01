@@ -18,6 +18,6 @@
 
 	<project name="meta-xilinx" remote="Xilinx" path="meta-xilink" />
 
-	<project name="meta-ettus" remote="balister" path="meta-ettus" "revision=e100-updates" />
+	<project name="meta-ettus" remote="balister" path="meta-ettus" revision="e100-updates" />
 
 </manifest>
