@@ -18,7 +18,7 @@
 
 	<project name="meta-xilinx" remote="balister" path="meta-xilinx" revision="working-branch" />
 
-	<project name="meta-ettus" remote="balister" path="meta-ettus" revision="e100-updates" />
+	<project name="meta-ettus" remote="balister" path="meta-ettus" />
 	<project name="meta-sdr" remote="balister" path="meta-sdr" />
 
 </manifest>
