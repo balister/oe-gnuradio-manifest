@@ -16,8 +16,9 @@
 	<project name="oe-core"  path="oe-core" />
 	<project name="meta-oe"  path="meta-oe" />
 
-	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" />
+	<project name="meta-xilinx" remote="Xilinx" path="working-branch" />
 
 	<project name="meta-ettus" remote="balister" path="meta-ettus" revision="e100-updates" />
+	<project name="meta-sdr" remote="balister" path="meta-sdr" />
 
 </manifest>
