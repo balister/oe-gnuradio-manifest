@@ -1,4 +1,4 @@
-Repo Manifests for lding systems based on meta-sdr
+Repo Manifests for building systems based on meta-sdr
 =============================================
 This repository provides Repo manifests to setup the OpenEmbedded build system
 with meta-sdr and some interesting boards
@@ -84,6 +84,7 @@ source ./oe-core/oe-init-build-env ./build ./bitbake
     do an awful lot of compilation so make sure you have plenty of space (25GB
     minimum). Go drink some beer.
 
+        $ export MACHINE="zedboard-zynq7" (default is ettus-e1xx)
         $ bitbake gnuradio-dev-image
 
     If everything goes well, you should have a compressed root filesystem
