@@ -71,10 +71,9 @@ Getting Started
 
 4.  Initialize the OpenEmbedded Environment.
 
-        $ TEMPLATECONF=/Full path to/meta-ettus/common/conf \
-source ./oe-core/oe-init-build-env ./build ./bitbake
+        $ TEMPLATECONF=/Full path to/meta-ettus/common/conf source ./oe-core/oe-init-build-env ./build ./bitbake
 
-    This copies default configuration information into the *poky/build/conf*
+    This copies default configuration information into the build/conf*
     directory and sets up some environment variables for OpenEmbedded.  You may
     wish to edit the configuration options at this point.
 
