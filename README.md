@@ -95,6 +95,18 @@ Getting Started
     a look to be sure your operating system is supported:
     https://wiki.yoctoproject.org/wiki/Distribution_Support
 
+6.  Build an SDK for cross compiling gnuradio on an x86 machine.
+
+    Run:
+
+        $ export MACHINE="zedboard-zynq7" (only if MACHINE is not already set)
+        $ bibake -c populate_sdk gnuradio-dev-image
+
+    When this completes the sdk is in ./build/deploy/imaghes/sdk as an .sh file
+    you copy to the machine you want to cross compile on and run the file.
+    It will default to installing the sdk in /usr/local, and you can ask it to
+    install anywhere you have write access to.
+
 Staying Up to Date
 ------------------
 To pick up the latest changes for all source repositories, run:
