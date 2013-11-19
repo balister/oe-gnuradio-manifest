@@ -103,7 +103,7 @@ To pick up the latest changes for all source repositories, run:
 
 Enter the OpenEmbedded environment:
 
-    $ source oe-core/oe-init-build-env
+    $ . oe-core/oe-init-build-env ./build ./bitbake
 
     If you forget to setup these environment variables prior to running bitbake,
     your OS will complain that it can't find bitbake on the path.  Don't try
