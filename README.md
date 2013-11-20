@@ -38,7 +38,7 @@ Getting Started
 
     Tell Repo where to find the manifest
 
-        $ repo init -u git://github.com/balister/oe-gnuradio-manifest.git 
+        $ repo init -u git://github.com/balister/oe-gnuradio-manifest.git -b stable
 
     A successful initialization will end with a message stating that Repo is
     initialized in your working directory. Your client directory should now
@@ -46,8 +46,8 @@ Getting Started
     ***
     **Note**
     You can use the **-b** switch to specify the branch of the repository
-    to use.  I develop on master. At some point, I'll make a branch that
-    should work :)
+    to use.  I develop on master so it might be iffy at times. Use the
+    "stable" branch fornormal work. 
 
     The **-m** switch selects the manifest file (default is *default.xml*).
 
@@ -57,7 +57,7 @@ Getting Started
     
     To get back to the known stable version, type:
 
-        $ repo init -u git://github.com/balister/oe-gnuradio-manifest -b TBD
+        $ repo init -u git://github.com/balister/oe-gnuradio-manifest -b stable
 
     To learn more about repo, look at http://source.android.com/source/version-control.html 
     ***
