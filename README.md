@@ -147,7 +147,7 @@ repositories and branches or pull in additional meta-layers.
 
 Clone this repository (or fork it on github):
 
-    $ git clone git://github.com/balister-oe-gnuradio-manifest.git
+    $ git clone git://github.com/balister/oe-gnuradio-manifest.git
 
 Make your changes (and contribute them back if they are generally useful :) ),
 and then re-initialize your repo client
