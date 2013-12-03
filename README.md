@@ -72,7 +72,7 @@ Getting Started
 4.  Initialize the OpenEmbedded Environment. This assumes you created the oe-core directory
     in your home directory.
 
-        $ TEMPLATECONF=$HOME/oe-repo/meta-ettus/common/conf source ./oe-core/oe-init-build-env ./build ./bitbake
+        $ TEMPLATECONF=`pwd`/meta-ettus/common/conf source ./oe-core/oe-init-build-env ./build ./bitbake
 
     This copies default configuration information into the build/conf*
     directory and sets up some environment variables for OpenEmbedded.  You may
