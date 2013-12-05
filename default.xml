@@ -10,6 +10,9 @@
 	<remote name="balister"
 		fetch="git://github.com/balister" />
 
+        <remote name="freescale"
+                fetch="git://github.com/Freescale" />
+ 
 	<default remote="openembedded" revision="master"  />
 
 	<project name="bitbake"  path="bitbake" />
@@ -20,5 +23,7 @@
 
 	<project name="meta-ettus" remote="balister" path="meta-ettus" />
 	<project name="meta-sdr" remote="balister" path="meta-sdr" />
+        <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" />
+        <project name="meta-fsl-arm-extra" remote="freescale" path="mets-fsl-arm-extra" />
 
 </manifest>
