@@ -24,6 +24,6 @@
 	<project name="meta-ettus" remote="balister" path="meta-ettus" />
 	<project name="meta-sdr" remote="balister" path="meta-sdr" />
         <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" />
-        <project name="meta-fsl-arm-extra" remote="freescale" path="mets-fsl-arm-extra" />
+        <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" />
 
 </manifest>
