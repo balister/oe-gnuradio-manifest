@@ -154,3 +154,14 @@ and then re-initialize your repo client
 
     $ repo init -u <file:///path/to/your/git/repository.git>
 
+Known Good Machines
+-------------------
+
+These machines have been tested:
+
+ zedboard-zynq7
+ ettus-e1xx (need to use kernel+modules from official image)
+ imx6sabre-lite
+
+Please send success stories to philip@balister.org.
+
