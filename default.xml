@@ -13,6 +13,9 @@
         <remote name="freescale"
                 fetch="git://github.com/Freescale" />
  
+        <remote name="yocto"
+                fetch="git://git.yoctoproject.org/" />
+ 
 	<default remote="openembedded" revision="master"  />
 
 	<project name="bitbake"  path="bitbake" />
@@ -25,5 +28,6 @@
 	<project name="meta-sdr" remote="balister" path="meta-sdr" />
         <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" />
         <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" />
+        <project name="meta-ti" remote="yocto" path="meta-ti" />
 
 </manifest>
