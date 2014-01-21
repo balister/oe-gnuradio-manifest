@@ -101,7 +101,7 @@ Getting Started
     Run:
 
         $ export MACHINE="zedboard-zynq7" (only if MACHINE is not already set)
-        $ bibake -c populate_sdk gnuradio-dev-image
+        $ bitbake -c populate_sdk gnuradio-dev-image
 
     When this completes the sdk is in ./build/deploy/imaghes/sdk as an .sh file
     you copy to the machine you want to cross compile on and run the file.
