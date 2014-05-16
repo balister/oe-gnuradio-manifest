@@ -103,7 +103,7 @@ Getting Started
         $ export MACHINE="zedboard-zynq7" (only if MACHINE is not already set)
         $ bitbake -c populate_sdk gnuradio-dev-image
 
-    When this completes the sdk is in ./build/deploy/imaghes/sdk as an .sh file
+    When this completes the sdk is in ./tmp-eglibc/deploy/sdk/ as an .sh file
     you copy to the machine you want to cross compile on and run the file.
     It will default to installing the sdk in /usr/local, and you can ask it to
     install anywhere you have write access to.
