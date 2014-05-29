@@ -18,16 +18,16 @@
  
 	<default remote="openembedded" revision="master"  />
 
-	<project name="bitbake"  path="bitbake" revision="d150226d11d5f041f78c8c3ce4abc5465dbc81d8" upstream="refs/head/master" />
-	<project name="oe-core"  path="oe-core" revision="9948e4239b88026804c33d84830dbfe6b0ed3e59" upstream="refs/head/master" />
-	<project name="meta-oe"  path="meta-oe" revision="0e7630c31989bec8ac96261b72518f7b505bcdb7" upstream="refs/head/master" />
+	<project name="bitbake"  path="bitbake" revision="fe083b674b20b254877a6d8249b11c9a7373866e" upstream="refs/head/1.22" />
+	<project name="oe-core"  path="oe-core" revision="03a11d3cecc977b23bdf7b8510bf80dbe408b135" upstream="refs/head/daisy" />
+	<project name="meta-oe"  path="meta-oe" revision="dca466c074c9a35bc0133e7e0d65cca0731e2acf" upstream="refs/head/daisy" />
 
-	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="7c19cb06a61500f9aab21e9e95173d0305bff25c" upstream="refs/head/master" />
+	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="56afae038a1c5a8165371cd295ab50ba2400efd8" upstream="refs/head/daisy" />
 
-	<project name="meta-ettus" remote="balister" path="meta-ettus" revision="51422017f3a2065f136c53601f0f139fe80b7fab" upstream="refs/head/master" />
-	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="bd5803980cf885b6b2a82a85b1e6d1d19b43abe2" upstream="refs/head/master" />
-        <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="b7a71ee5e8c77d0994c263ef3c9761368b1a120d" upstream="refs/head/master" />
-        <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="48cba7af1b94a60fbcbf4ac7bdb0edb3f40b4ae5" upstream="refs/head/master" />
-        <project name="meta-ti" remote="yocto" path="meta-ti" revision="c7f1fb41d70a12f9afb51edfe63bbda0b46c7cc6" upstream="refs/head/master" />
+	<project name="meta-ettus" remote="balister" path="meta-ettus" revision="51422017f3a2065f136c53601f0f139fe80b7fab" upstream="refs/head/daisy" />
+	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="801364739b586c16e4a55a2f5e2819f002cd2422" upstream="refs/head/daisy" />
+        <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="3336ef362109eef14f9e73cdededb43caefedb2f" upstream="refs/head/daisy" />
+        <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="596e44c6166b8978929433b940a3f277fb200120" upstream="refs/head/daisy" />
+        <project name="meta-ti" remote="yocto" path="meta-ti" revision="d4ddeb2320386c6e5cd2b772fd963f8dbc73f64e" upstream="refs/head/daisy" />
 
 </manifest>
