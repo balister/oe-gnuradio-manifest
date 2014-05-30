@@ -25,7 +25,7 @@
 	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="75849dd92dbde2e9bb1c1b1dd39f620bac88ad8c" upstream="refs/head/daisy" />
 
 	<project name="meta-ettus" remote="balister" path="meta-ettus" revision="51422017f3a2065f136c53601f0f139fe80b7fab" upstream="refs/head/daisy" />
-	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="801364739b586c16e4a55a2f5e2819f002cd2422" upstream="refs/head/daisy" />
+	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="aff91ac82730123fb3e845e62fecc0dcadb64521" upstream="refs/head/daisy" />
         <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="3336ef362109eef14f9e73cdededb43caefedb2f" upstream="refs/head/daisy" />
         <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="596e44c6166b8978929433b940a3f277fb200120" upstream="refs/head/daisy" />
         <project name="meta-ti" remote="yocto" path="meta-ti" revision="d4ddeb2320386c6e5cd2b772fd963f8dbc73f64e" upstream="refs/head/daisy" />
