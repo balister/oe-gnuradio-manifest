@@ -22,7 +22,7 @@
 	<project name="oe-core"  path="oe-core" revision="03a11d3cecc977b23bdf7b8510bf80dbe408b135" upstream="refs/head/daisy" />
 	<project name="meta-oe"  path="meta-oe" revision="dca466c074c9a35bc0133e7e0d65cca0731e2acf" upstream="refs/head/daisy" />
 
-	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="56afae038a1c5a8165371cd295ab50ba2400efd8" upstream="refs/head/daisy" />
+	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="75849dd92dbde2e9bb1c1b1dd39f620bac88ad8c" upstream="refs/head/daisy" />
 
 	<project name="meta-ettus" remote="balister" path="meta-ettus" revision="51422017f3a2065f136c53601f0f139fe80b7fab" upstream="refs/head/daisy" />
 	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="801364739b586c16e4a55a2f5e2819f002cd2422" upstream="refs/head/daisy" />
