@@ -13,6 +13,10 @@ single *manifest* file.  Tell repo to fetch a manifest from this repository and
 it will fetch the git repositories specified in the manifest and, by doing so,
 setup an OpenEmbedded build environment for you!
 
+Daisy is the name of the April 2014 Yocto Project release. For normal work
+use the release branch for best results. Elite hacker dudes can work on 
+master.
+
 Getting Started
 ---------------
 1.  Install Repo.
@@ -38,7 +42,7 @@ Getting Started
 
     Tell Repo where to find the manifest
 
-        $ repo init -u git://github.com/balister/oe-gnuradio-manifest.git -b stable
+        $ repo init -u git://github.com/balister/oe-gnuradio-manifest.git -b daisy
 
     A successful initialization will end with a message stating that Repo is
     initialized in your working directory. Your client directory should now
@@ -47,7 +51,7 @@ Getting Started
     **Note**
     You can use the **-b** switch to specify the branch of the repository
     to use.  I develop on master so it might be iffy at times. Use the
-    "stable" branch fornormal work. 
+    "daisy" branch for normal work. 
 
     The **-m** switch selects the manifest file (default is *default.xml*).
 
@@ -57,7 +61,7 @@ Getting Started
     
     To get back to the known stable version, type:
 
-        $ repo init -u git://github.com/balister/oe-gnuradio-manifest -b stable
+        $ repo init -u git://github.com/balister/oe-gnuradio-manifest -b daisy
 
     To learn more about repo, look at http://source.android.com/source/version-control.html 
     ***
