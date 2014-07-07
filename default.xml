@@ -19,15 +19,15 @@
 	<default remote="openembedded" revision="master"  />
 
 	<project name="bitbake"  path="bitbake" revision="fe083b674b20b254877a6d8249b11c9a7373866e" upstream="refs/head/1.22" />
-	<project name="oe-core"  path="oe-core" revision="03a11d3cecc977b23bdf7b8510bf80dbe408b135" upstream="refs/head/daisy" />
-	<project name="meta-oe"  path="meta-oe" revision="dca466c074c9a35bc0133e7e0d65cca0731e2acf" upstream="refs/head/daisy" />
+	<project name="oe-core"  path="oe-core" revision="348b90a8a9b32e5e4a10960194a2f622cb07a0c6" upstream="refs/head/daisy" />
+	<project name="meta-oe"  path="meta-oe" revision="ee24939c4c70b63a9fb7e93a58889a3231d3d367" upstream="refs/head/daisy" />
 
-	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="75849dd92dbde2e9bb1c1b1dd39f620bac88ad8c" upstream="refs/head/daisy" />
+	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="4ad75674549fc0f206f967b7b287769080c3eba9" upstream="refs/head/daisy" />
 
 	<project name="meta-ettus" remote="balister" path="meta-ettus" revision="51422017f3a2065f136c53601f0f139fe80b7fab" upstream="refs/head/daisy" />
 	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="9efe0054c18f10279bd42350b596b639e24d728b" upstream="refs/head/daisy" />
-        <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="3336ef362109eef14f9e73cdededb43caefedb2f" upstream="refs/head/daisy" />
-        <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="596e44c6166b8978929433b940a3f277fb200120" upstream="refs/head/daisy" />
-        <project name="meta-ti" remote="yocto" path="meta-ti" revision="d4ddeb2320386c6e5cd2b772fd963f8dbc73f64e" upstream="refs/head/daisy" />
+        <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="d91871446d6baee8397522c4fa10d45985aa8645" upstream="refs/head/daisy" />
+        <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="456c27085a70bb1385a4c2e28ba80ac74d6f533e" upstream="refs/head/daisy" />
+        <project name="meta-ti" remote="yocto" path="meta-ti" revision="c58a5d88a21613c9e4b031df9aa1e19392547f4d" upstream="refs/head/daisy" />
 
 </manifest>
