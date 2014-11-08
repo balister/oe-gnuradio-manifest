@@ -38,29 +38,13 @@ Getting Started
 
     Tell Repo where to find the manifest
 
-        $ repo init -u git://github.com/balister/oe-gnuradio-manifest.git -b stable
+        $ repo init -u git://github.com/balister/oe-gnuradio-manifest.git -b dizzy
 
     A successful initialization will end with a message stating that Repo is
     initialized in your working directory. Your client directory should now
     contain a .repo directory where files such as the manifest will be kept.
-    ***
-    **Note**
-    You can use the **-b** switch to specify the branch of the repository
-    to use.  I develop on master so it might be iffy at times. Use the
-    "stable" branch fornormal work. 
-
-    The **-m** switch selects the manifest file (default is *default.xml*).
-
-    To test out the bleeding edge, type:
-
-        $ repo init -u git://github.com/balister/oe-gnuradio-manifest.git
-    
-    To get back to the known stable version, type:
-
-        $ repo init -u git://github.com/balister/oe-gnuradio-manifest -b stable
 
     To learn more about repo, look at http://source.android.com/source/version-control.html 
-    ***
 
 3.  Fetch all the repositories.
 
@@ -84,7 +68,7 @@ Getting Started
     do an awful lot of compilation so make sure you have plenty of space (25GB
     minimum). Go drink some beer.
 
-        $ export MACHINE="zedboard-zynq7" (default is ettus-e1xx)
+        $ export MACHINE="zedboard-zynq7" (default is ettus-e300)
         $ bitbake gnuradio-dev-image
 
     If everything goes well, you should have a compressed root filesystem
