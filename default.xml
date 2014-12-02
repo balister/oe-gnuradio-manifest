@@ -20,12 +20,12 @@
 
 	<project name="meta-ettus" remote="balister" path="meta-ettus" revision="fa8be16dc122ffa07d1c1168b6e95944a48afa99" upstream="refs/head/master" />
 	<project name="bitbake"  path="bitbake" revision="fc7ebf3835a206a5daafd4e1b73bac2549714ad3" upstream="refs/head/1.24" />
-	<project name="oe-core"  path="oe-core" revision="26a2f98155a867a71217e52d33f761dcc60800ca" upstream="refs/head/dizzy" />
+	<project name="oe-core"  path="oe-core" revision="7c04085a0b5f978d7fd07f83b0799abbeb3b7052" upstream="refs/head/dizzy" />
 	<project name="meta-oe"  path="meta-oe" revision="9efaed99125b1c4324663d9a1b2d3319c74e7278" upstream="refs/head/dizzy" />
 	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="013976b6e7fc24fb9cb26f84f0640a732dcbb2d7" upstream="refs/head/master" />
 	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="1bfd8f08a73a76d2369294c3133387a7197af3dd" upstream="refs/head/master" />
-        <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="f8016b991029046be04675fc25869e6973edd4b1" upstream="refs/head/dizzy" />
-        <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="9404b049d79de889af02f5b4a11046b6e1543422" upstream="refs/head/dizzy" />
+        <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="83ebcd699ecf5fb5832ac2fec40c51f0f903f903" upstream="refs/head/dizzy" />
+        <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="452cbeee41e6497802dd5c477752628d79a4db41" upstream="refs/head/dizzy" />
         <project name="meta-ti" remote="yocto" path="meta-ti" revision="c3343c1458adde878dc281eb795035eb5386c823" upstream="refs/head/master" />
 
 </manifest>
