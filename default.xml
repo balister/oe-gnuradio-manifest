@@ -23,7 +23,7 @@
 	<project name="oe-core"  path="oe-core" revision="7c04085a0b5f978d7fd07f83b0799abbeb3b7052" upstream="refs/head/dizzy" />
 	<project name="meta-oe"  path="meta-oe" revision="9efaed99125b1c4324663d9a1b2d3319c74e7278" upstream="refs/head/dizzy" />
 	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="013976b6e7fc24fb9cb26f84f0640a732dcbb2d7" upstream="refs/head/master" />
-	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="021a57da9e40ee15bcec50038e547be5fc3acc2f" upstream="refs/head/master" />
+	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="30703a6072dee20987537a061c28bdd1ff4a0875" upstream="refs/head/master" />
         <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="83ebcd699ecf5fb5832ac2fec40c51f0f903f903" upstream="refs/head/dizzy" />
         <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="452cbeee41e6497802dd5c477752628d79a4db41" upstream="refs/head/dizzy" />
         <project name="meta-ti" remote="yocto" path="meta-ti" revision="c3343c1458adde878dc281eb795035eb5386c823" upstream="refs/head/master" />
