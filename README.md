@@ -13,6 +13,10 @@ single *manifest* file.  Tell repo to fetch a manifest from this repository and
 it will fetch the git repositories specified in the manifest and, by doing so,
 setup an OpenEmbedded build environment for you!
 
+Daisy is the name of the April 2014 Yocto Project release. For normal work
+use the release branch for best results. Elite hacker dudes can work on 
+master.
+
 Getting Started
 ---------------
 1.  Install Repo.
