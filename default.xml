@@ -21,12 +21,12 @@
  
 	<default remote="openembedded" revision="master"  />
 
-	<project name="meta-ettus" remote="ettus" path="meta-ettus" revision="f21410a8bc08da2a6de2b53bdf61d3df68b17b97" upstream="refs/head/master" />
+	<project name="meta-ettus" remote="ettus" path="meta-ettus" revision="1ae70126f6c56fc087cda85be201c89cf748855b" upstream="refs/head/master" />
 	<project name="bitbake"  path="bitbake" revision="fc7ebf3835a206a5daafd4e1b73bac2549714ad3" upstream="refs/head/1.24" />
-	<project name="oe-core"  path="oe-core" revision="8ec3851c68fa1641629db56b25352f31c4cb4774" upstream="refs/head/dizzy" />
+	<project name="oe-core"  path="oe-core" revision="93d79fc162bd49387958e9e4d898dc4ba50d20b0" upstream="refs/head/dizzy" />
 	<project name="meta-oe"  path="meta-oe" revision="510b7a9d8d5dda07120df5866507742a626478c1" upstream="refs/head/dizzy" />
 	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="7f759048bb0aeef3c0b3938be81d2bcade7acb7e" upstream="refs/head/dizzy" />
-	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="29308bc76ac3d85ec93581965dece635e0c1520a" upstream="refs/head/master" />
+	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="bc4119d8d24c4a341c5f75f7223492c694039ef1" upstream="refs/head/master" />
         <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="caa153361370d69394cf2208b2f4821fda33eba3" upstream="refs/head/dizzy" />
         <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="eb59dbb9d4372ad531ea6917854b2db97dc7c420" upstream="refs/head/dizzy" />
         <project name="meta-ti" remote="yocto" path="meta-ti" revision="c3343c1458adde878dc281eb795035eb5386c823" upstream="refs/head/master" />
