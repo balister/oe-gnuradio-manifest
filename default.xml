@@ -23,8 +23,8 @@
 
 	<project name="meta-ettus" remote="ettus" path="meta-ettus" revision="8f0bbf26f6fa45f0339b0ea4eede0b38ed13ec7b" />
 	<project name="bitbake"  path="bitbake" revision="ab8cbf2a71750f5ea36e218036b050857301607b" />
-	<project name="oe-core"  path="openembedded-core" revision="7bd0c0576da1e595f37c0bb70c0d286b78a62eb0" />
-	<project name="meta-oe"  path="meta-openembedded" revision="30438e7690a7e44ce216478c0352a3fbf3b572fb"  />
+	<project name="openembedded-core"  path="oe-core" revision="7bd0c0576da1e595f37c0bb70c0d286b78a62eb0" />
+	<project name="meta-openembedded"  path="meta-oe" revision="30438e7690a7e44ce216478c0352a3fbf3b572fb"  />
 	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="cd67eae1c63c64a2edd9560aec6d0b78fd7549cb" />
 	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="c39900ef0f22c02a35dbfd41359531919cbd8d80" />
         <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="b74e5e690d8d4e149ea9de3f0fcca37bad93935f" />
