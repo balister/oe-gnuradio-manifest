@@ -21,14 +21,14 @@
  
 	<default remote="openembedded" revision="master"  />
 
-	<project name="meta-ettus" remote="ettus" path="meta-ettus" revision="12663a4dc7a485d68487c28b590b31d3d7f988c1" />
-	<project name="bitbake"  path="bitbake" revision="cd92e5dce5f5d61ecb7838bf964a7812e905509a" />
-	<project name="openembedded-core"  path="oe-core" revision="b08ee8478f0cc2e2f9394c7e209dae45de2d845e" />
-	<project name="meta-openembedded"  path="meta-oe" revision="5b0305d9efa4b5692cd942586fb7aa92dba42d59"  />
+	<project name="meta-ettus" remote="ettus" path="meta-ettus" revision="65a2ec1ea294e249fd2bda60c4993035c8cf3c2d" />
+	<project name="bitbake"  path="bitbake" revision="ac66fac162e68b568f986fe1917772e61c982f8e" />
+	<project name="openembedded-core"  path="oe-core" revision="1c916ddebc3009d3817359144b02745c3ecbd5c4" />
+	<project name="meta-openembedded"  path="meta-oe" revision="10d3c8f85280a0bf867a8e4f84bcda81c290d28e"  />
 	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="ef86ae552e00b17d9ab6105384a2623b523cd013" />
-	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="7a98cd9da005f019d61efa8c4f52c79b5a106d9a" />
-        <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="000f770272be28b913ee10f87e344ac7527ba462" />
-        <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="475e3c635aed4ba1d1718f02d7c6cc0cbe7419fd" />
-        <project name="meta-ti" remote="yocto" path="meta-ti" revision="f9d08e051d65970511e0b3ea044b03a1b9dc5a03" />
+	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="089e89584a5cceb146f41a27d29fcb66d6306eb2" />
+        <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="c5326c90d6754c8630504ae29244907b0841c3a9" />
+        <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="436b86e3421736216412bdbb21cd9cb08c758c75" />
+        <project name="meta-ti" remote="yocto" path="meta-ti" revision="3e4278b4ecf66355c3d34e4a160f33b6a6e4352c" />
 
 </manifest>
