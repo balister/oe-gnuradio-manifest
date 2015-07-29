@@ -42,7 +42,7 @@ Getting Started
 
     Tell Repo where to find the manifest
 
-        $ repo init -u git://github.com/balister/oe-gnuradio-manifest.git -b dizzy
+        $ repo init -u git://github.com/balister/oe-gnuradio-manifest.git -b fido
 
     A successful initialization will end with a message stating that Repo is
     initialized in your working directory. Your client directory should now
