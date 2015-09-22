@@ -23,12 +23,12 @@
 
 	<project name="meta-ettus" remote="ettus" path="meta-ettus" revision="bd89abe32a8f7dcd59288d8eba1112a7e852ecad" />
 	<project name="bitbake"  path="bitbake" revision="ed30f4ee1cef8db9ea422c5e54b2375c4f3b1d6f" />
-	<project name="openembedded-core"  path="oe-core" revision="5a1839ecc9a2191252019ddd5c253098006f5bc3" />
-	<project name="meta-openembedded"  path="meta-oe" revision="10d3c8f85280a0bf867a8e4f84bcda81c290d28e"  />
-	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="ef86ae552e00b17d9ab6105384a2623b523cd013" />
-	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="3ca726d7b5cfb8f76cb2765e245f52f42c525155" />
-        <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="7e8772e42b4c5db14d51e2d7d49fd5257ec314cd" />
+	<project name="openembedded-core"  path="oe-core" revision="4c02a30f084408d0a6a5149937ef74520f8346dc" />
+	<project name="meta-openembedded"  path="meta-oe" revision="214e1801d0efc38d3b6142bdc0d8e58ca593e34c"  />
+	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="acdc605fdeb4eff997fbe47930f263469dec2067" />
+	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="9f2838f489a892055413311bba372466bc32bb5e" />
+        <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="f30b056c8f1af3f3122f94dbaa4698da5d620a41" />
         <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="c0ff75e85bcbd616362c21e501dc6df187612cf9" />
-        <project name="meta-ti" remote="yocto" path="meta-ti" revision="433b7609235ceedbd5cd4e40519c9ea5a5c63603" />
+        <project name="meta-ti" remote="yocto" path="meta-ti" revision="0a222c70845d19a2213ac36803361e8531768cca" />
 
 </manifest>
