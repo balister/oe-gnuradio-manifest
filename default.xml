@@ -28,7 +28,7 @@
 	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="13779b9254bab450875a60ed8f21edd0e8876a71" />
 	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="033049a3fa7c97dbe57eaaa54b84b05cbdd6484f" />
         <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="c9f259a4bf8472dfa3ff75f1c3fcbe5e0ded7aaf" />
-        <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="41e79c6bd055f12b6252618c22c43a2fed5cfb49" />
+        <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="ad90ca98459f5de9483bb3ba5a81be0a67b078c3" />
         <project name="meta-ti" remote="yocto" path="meta-ti" revision="2210ae2cdacc22105b76c5fa45957ebec104f1c6" />
 
 </manifest>
