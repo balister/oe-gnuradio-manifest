@@ -29,6 +29,6 @@
 	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="ff4da71d19ffedb52593f27d355112870e604a4b" />
         <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="c9f259a4bf8472dfa3ff75f1c3fcbe5e0ded7aaf" />
         <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="b292f6204912ace18e30b7683748a311c5dfa780" />
-        <project name="meta-ti" remote="yocto" path="meta-ti" revision="c93678aa08bc0df0f1f36a84afe48723406de58e" />
+        <project name="meta-ti" remote="yocto" path="meta-ti" revision="42e8f306a9105e858e7190a3683b010c7d236ada" />
 
 </manifest>
