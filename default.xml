@@ -26,7 +26,7 @@
 	<project name="openembedded-core"  path="oe-core" revision="fd27f8620ae4d95dfe07b27eee4256b0a128348a" />
 	<project name="meta-openembedded"  path="meta-oe" revision="902964a4da26e46018d2a8d17dcdda1ac4627a39"  />
 	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="13779b9254bab450875a60ed8f21edd0e8876a71" />
-	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="09dacea1b80e6eb06b412c32b101622b14160dae" />
+	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="c78930b3dc37572c562625184e11814a7edeeeb2" />
         <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="c9f259a4bf8472dfa3ff75f1c3fcbe5e0ded7aaf" />
         <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="b292f6204912ace18e30b7683748a311c5dfa780" />
         <project name="meta-ti" remote="yocto" path="meta-ti" revision="bc7adf6d7ac984050672adccb8b99e20b141394e" />
