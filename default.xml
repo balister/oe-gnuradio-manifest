@@ -21,14 +21,14 @@
  
 	<default remote="openembedded" revision="master"  />
 
-	<project name="meta-ettus" remote="ettus" path="meta-ettus" revision="848d3b1dfda600b7f7e3c7898234bfffc18316b0" />
-	<project name="bitbake"  path="bitbake" revision="0e9d8d63ddb35d181d4e470585d1e4a4c646cd00" />
-	<project name="openembedded-core"  path="oe-core" revision="28032d8c3122b75ceb3f4a664a2b478c9a9a6a2c" />
-	<project name="meta-openembedded"  path="meta-oe" revision="c305ac5d2f5285d5eec8952a4ca7f3b4f89aed96"  />
-	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="989a6a12010247aebf137d8ad3f6a042da42640a" />
-	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="f0f17220255f4d010edf73dfe73f8b12fd777ea3" />
-        <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="b182201118590ddb11c6b833ef567879c835d277" />
-        <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="dd074c47af53948041f6c5671e519fbf815b0980" />
-        <project name="meta-ti" remote="yocto" path="meta-ti" revision="12fbf1a37424f1cabd06dc993bf8921fd06f93d1" />
+	<project name="meta-ettus" remote="ettus" path="meta-ettus" revision="d07a9ab1bdb555956f6d323847818b17f98f6205" />
+	<project name="bitbake"  path="bitbake" revision="25859009b710cb35ac8f9ee9eb3a7305f9e13402" />
+	<project name="openembedded-core"  path="oe-core" revision="85ab50390edd3c0de632386da71ccc9256d4d4c5" />
+	<project name="meta-openembedded"  path="meta-oe" revision="247b1267bbe95719cd4877d2d3cfbaf2a2f4865a"  />
+	<project name="meta-xilinx" remote="Xilinx" path="meta-xilinx" revision="dcd1c218f943c3657b138cb05012c90c65f32a35" />
+	<project name="meta-sdr" remote="balister" path="meta-sdr" revision="ba79a1137282bd755c884bd26972ef05f4bc65ac" />
+        <project name="meta-fsl-arm" remote="freescale" path="meta-fsl-arm" version="e713e9d0cc2fc0dd407e2cbf9d1eea9c573a4de7" />
+        <project name="meta-fsl-arm-extra" remote="freescale" path="meta-fsl-arm-extra" revision="698cf389aa446244a39b597fbf58be1d55096500" />
+        <project name="meta-ti" remote="yocto" path="meta-ti" revision="20e57e16de436d83231a62da8a5074fd3a055937" />
 
 </manifest>
