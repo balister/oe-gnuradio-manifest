@@ -13,9 +13,9 @@ single *manifest* file.  Tell repo to fetch a manifest from this repository and
 it will fetch the git repositories specified in the manifest and, by doing so,
 setup an OpenEmbedded build environment for you!
 
-Daisy is the name of the April 2014 Yocto Project release. For normal work
-use the release branch for best results. Elite hacker dudes can work on 
-master.
+Information about the branch names is available at
+https://wiki.yoctoproject.org/wiki/Releases. Helpful articles about working
+with GNUradio and Openembedded are at: http://www.opensdr.com/categories/.
 
 Getting Started
 ---------------
