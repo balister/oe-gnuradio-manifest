@@ -1,3 +1,6 @@
+This file is obsolete, now using git submodules, not repo to manage multiple repositories.
+
+
 Repo Manifests for building systems based on meta-sdr
 =============================================
 This repository provides Repo manifests to setup the OpenEmbedded build system
